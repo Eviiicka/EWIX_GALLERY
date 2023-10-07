@@ -1,0 +1,155 @@
+
+.aboutmescreen {
+    background-image: url("img/ewixgallerydark.png");
+    min-height: 23vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0.5vw;
+}
+
+.aboutmescreen h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 4vw;
+    position: relative;
+    top: 8vw;
+    left: 38vw;
+}
+
+.aboutme {
+    height: 18vw;
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+.aboutme h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 4vw;
+    position: relative;
+    top: 1vw;
+}
+
+.realname {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 1vw;
+    position: relative;
+    top: 1vw;
+}
+
+.infoabout {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 1vw;
+    position: relative;
+    top: 2vw;
+    font-weight: 700;
+}
+
+.ewixabout {
+    height: 40vw;
+}
+
+.ewixaboutimg {
+    width: 100vw;
+}
+
+.katana {
+    width: 40vw;
+    position: relative;
+    top: -6vw;
+    left: 15vw;
+    z-index: -1;
+}
+
+.gallery {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 1.5vw;
+    position: relative;
+    top: -20vw;
+    left: 42.5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    background-color: #5A00FF;
+    transition: .2s linear;
+}
+
+.gallery:hover {
+    color: #5A00FF;
+    background-color: #ffffff;
+}
+
+.pruhabout {
+    height: 3vw;
+    background-color: #5A00FF;
+}
+
+.commissionsscreen {
+    background-image: url("img/ewixgallerv3dark.png");
+    min-height: 26.042vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.commissionsscreen h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 4vw;
+    position: relative;
+    top: 4vw;
+    left: 20vw;
+}
+
+.commissionsscreen p {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 1w;
+    position: relative;
+    top: 8vw;
+    left: 19vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.pruhcommissions p {
+    height: 0.5vw;
+    background-color: #5A00FF;
+    position: relative;
+    top: 7vw;
+    left: 20vw;
+}
+
+.order {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #5A00FF;
+    font-size: 0.8vw;
+    position: relative;
+    top: 11vw;
+    left: 20vw;
+    padding-top: 0.78vw;
+    padding-bottom: 0.78vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    transition: .2s linear;
+}
+
+.order:hover
+{
+    color: #5A00FF;
+    background-color: #ffffff;
+}

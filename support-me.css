@@ -1,0 +1,93 @@
+
+.commissions{
+    background-image: url("img/ewixgallerydark.png");
+    min-height: 23vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0.5vw; 
+}
+
+.commissions h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 4vw;
+    text-align: center;
+    position: relative;
+    top: 8vw;
+}
+
+.volne {
+    height: 10vw;
+}
+
+.volne h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 1.5vw;
+    text-align: center;
+    position: relative;
+    top: 3vw;
+}
+
+.paypal {
+    background-image: url("img/ewixgalleryv4.2dark.png");
+    min-height: 28vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .paypal a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 1vw;
+    background-color: #5A00FF;
+    position: relative;
+    top: 13vw;
+    left: 38.5vw;
+    padding-top: 0.78vw;
+    padding-bottom: 0.78vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    transition: .2s linear;
+}
+
+
+
+.paypal a:hover {
+    color: #5A00FF;
+    background-color: #ffffff;
+} */
+
+#donate-button {
+    width: 18vw;
+    position: relative;
+    top: 0.5vw;
+    left: 20.3vw;
+}
+
+.paypal img {
+    width: 6vw;
+    position: relative;
+    top: 13vw;
+    left: 46.6vw;
+}
+
+.paypal p {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 0.8vw;
+    text-align: center;
+    position: relative;
+    top: 13vw;
+}
+
+.pruh {
+    height: 3vw;
+    background-color: #5A00FF;
+}

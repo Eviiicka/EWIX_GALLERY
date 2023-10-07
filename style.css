@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    position: relative;
+    top: 0.5vw;
+    padding: 0.260vw;
+    background-color: #5A00FF; /*změna barvy*/
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.042vw;
+    height: 1.198vw;
+    vertical-align: middle;
+    font-weight: 700;
+}
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+/*.zkouska:hover {
+    background-color: black;
+}
+*/
+
+.center {
+    width: 75vw;
+    position: relative;
+    top: 0.5vw;
+    left: 12.5vw;
+
+/* px - pixely
+ vw - % šírky obrazovky
+ vh - % výšky obrazovky
+ vmax - % delší strany obrazovky
+ vmin - % kratší strany obrazovky
+ +*/
+}
+
+.navigace a {
+    text-decoration: none;
+    color: #dadada;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font: 100;
+    padding-left: 1.042vw;
+    padding-right: 1.042vw;
+    padding-top: 0.938vw;
+    font-size: 0.938vw;
+}
+
+.navigace a:hover {
+    color: #ffffff;
+}
+
+.navigace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials {
+    background-color: #5A00FF;
+    padding: 0.2vw;
+    height: 4vw;
+    position: relative;
+    top: 0vw;
+    left: 0vw;
+    text-align: center;
+}
+
+.socials img {
+    width: 2.5vw;
+    position: relative;
+    top: 0.6vw;
+    left: 0vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+}
+
+.commissionsscreen {
+    background-image: url("img/ewixgallerv3dark.png");
+    min-height: 26.042vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.commissionsscreen h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 4vw;
+    position: relative;
+    top: 4vw;
+    left: 20vw;
+}
+
+.commissionsscreen p {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 1w;
+    position: relative;
+    top: 8vw;
+    left: 19vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.pruhcommissions p {
+    height: 0.5vw;
+    background-color: #5A00FF;
+    position: relative;
+    top: 7vw;
+    left: 20vw;
+}
+
+.order {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #5A00FF;
+    font-size: 0.8vw;
+    position: relative;
+    top: 11vw;
+    left: 20vw;
+    padding-top: 0.78vw;
+    padding-bottom: 0.78vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    transition: .2s linear;
+}
+
+.order:hover
+{
+    color: #5A00FF;
+    background-color: #ffffff;
+}
+body {
+    background-color: black;
+}
+
+.supportme {
+    padding: 0.5vw;
+    height: 10vw;
+    position: relative;
+    top: 1.5vw;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.supportme h1 {
+    font-size: 4vw;
+}
+
+.supportme p {
+    position: relative;
+    top: 0vw;
+    font-size: 1vw;
+}
+
+.ifyou {
+    font-size: 3vwx;
+}
+
+.supportmelink a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.938vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #5A00FF;
+    position: relative;
+    top: 2vw;
+    left: 45vw;
+    padding-top: 0.781vw;
+    padding-bottom: 0.781vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    transition: .2s linear;
+}
+
+.supportmelink a:hover {
+    color: #5A00FF;
+    background-color: #ffffff;
+}
+
+.newcharacter {
+    position: relative;
+    top: 5vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 2vw;
+    text-align: center;
+    background-color: #5A00FF;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.character {
+
+    height: 52.083vw;
+
+}
+.yoshimasa1 {
+    width: 30vw;
+    object-fit: cover;
+    z-index: -100;
+    position: relative;
+    top: 10vw;
+    left: 22vw;
+}
+
+.yoshitext1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 3.125vw;
+    position: relative;
+    top: -2vw;
+    left: 22vw;
+}
+
+.yoshitext2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    position: relative;
+    top: -1.5vw;
+    left: 22vw;
+}
+
+.character a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 0.938vw;
+    background-color: #5A00FF;
+    position: relative;
+    top: 2vw;
+    left: 22vw;
+    padding-top: 0.781vw;
+    padding-bottom: 0.781vw;
+    padding-left: 1.042vw;
+    padding-right: 1.042vw;
+    transition: .2s linear;
+}
+
+.character a:hover {
+    color: #5A00FF;
+    background-color: #ffffff;
+}
+
+.yoshimasaimg {
+    width: 45vw;
+    position: relative;
+    top: -30vw;
+    left: 34vw;
+}
+
+div .yoshijp {
+    width: 10vw;
+    position: relative;
+    top: 0;
+    left: 66vw;
+}
+
+.pruh {
+    height: 2vw;
+    background-color: #5A00FF;
+    z-index: -100;
+}
+
+.mkmrjoin {
+    height: 35vw;
+}
+
+.mkmr {
+    width: 25vw;
+    position: absolute;
+    top: 133vw;
+    left: 22vw;
+}
+
+.join {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 3.125vw;
+    position: absolute;
+    top: 147vw;
+    left: 50vw;
+}
+
+.website {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 1vw;
+    background-color: #5A00FF;
+    position: absolute;
+    top: 152vw;
+    left: 57vw;
+    padding-top: 0.78vw;
+    padding-bottom: 0.78vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    transition: .2s linear;
+}
+
+.website:hover {
+    color: #5A00FF;
+    background-color: #ffffff;
+}
+
+.pruhmkmr {
+    height: 4vw;
+    background-color: #5A00FF;
+    position: relative;
+    top: 0vw;
+    left: 0vw;
+}
+
+
+.foot {
+    height: 15vw;
+    background-color: #000000;
+}
+
+/* .foot h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 1vw; 
+    
+    
+}
+
+.ewixTitle {
+    background-color: #5A00FF;
+    width: 8vw;
+    position: relative;
+    top: 13vw;
+    left: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+} */
+
+.pruhfoot {
+    height: 3vw;
+}
+
+.pruhfoot h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #dadada;
+    font-size: 0.8vw;
+    position: relative;
+    top: -4vw;
+    left: 45.6vw;
+
+}
+
+.socialsicon {
+    position: relative;
+    top: -14vw;
+    left: 43.5vw;
+}
+
+.socialsicon img {
+    width: 1vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    position: relative;
+    margin-top: 1vw;
+}
+
+
+.eicon {
+    text-align: center;
+    width: 10vw;
+    position: relative;
+    top: -2VW;
+    left: 45vw;
+
+
+}

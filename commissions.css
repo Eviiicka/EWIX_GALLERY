@@ -1,0 +1,37 @@
+.commissions{
+    background-image: url("img/ewixgallerv3dark.png");
+    min-height: 23vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0.5vw; 
+}
+
+.commissions h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 4vw;
+    position: relative;
+    top: 8vw;
+    left: 34vw;
+}
+
+.volne {
+    height: 10vw;
+}
+
+.volne h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 2.5vw;
+    text-align: center;
+    position: relative;
+    top: 3vw;
+}
+
+.pruh {
+    height: 3vw;
+    background-color: #5A00FF;
+}

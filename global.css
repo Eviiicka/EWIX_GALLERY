@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    position: relative;
+    top: 0.5vw;
+    padding: 0.260vw;
+    background-color: #5A00FF; /*změna barvy*/
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.042vw;
+    height: 1.198vw;
+    vertical-align: middle;
+    font-weight: 700;
+}
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+/*.zkouska:hover {
+    background-color: black;
+}
+*/
+
+.center {
+    width: 75vw;
+    position: relative;
+    top: 0.5vw;
+    left: 12.5vw;
+
+/* px - pixely
+ vw - % šírky obrazovky
+ vh - % výšky obrazovky
+ vmax - % delší strany obrazovky
+ vmin - % kratší strany obrazovky
+ +*/
+}
+
+.navigace a {
+    text-decoration: none;
+    color: #dadada;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font: 100;
+    padding-left: 1.042vw;
+    padding-right: 1.042vw;
+    padding-top: 0.938vw;
+    font-size: 0.938vw;
+}
+
+.navigace a:hover {
+    color: #ffffff;
+}
+
+.navigace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot {
+    height: 15vw;
+    background-color: #000000;
+}
+
+/* .foot h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 1vw; 
+    
+    
+}
+
+.ewixTitle {
+    background-color: #5A00FF;
+    width: 8vw;
+    position: relative;
+    top: 13vw;
+    left: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+} */
+
+.pruhfoot {
+    height: 3vw;
+}
+
+.pruhfoot h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #dadada;
+    font-size: 0.8vw;
+    position: relative;
+    top: -4vw;
+    left: 45.6vw;
+
+}
+
+.socialsicon {
+    position: relative;
+    top: -14vw;
+    left: 43.5vw;
+}
+
+.socialsicon img {
+    width: 1vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    position: relative;
+    margin-top: 1vw;
+}
+
+
+.eicon {
+    text-align: center;
+    width: 10vw;
+    position: relative;
+    top: -2VW;
+    left: 45vw;
+
+
+}
